@@ -1,0 +1,114 @@
+*{
+	font-family:'Roboto', sans-serif;
+}
+
+h1{
+	/* font-style:italic; */
+	font-size:4em;
+	text-align: center;
+}
+
+body{
+    background-color: #F0F0F0;
+/*	background-image:url('../images/paper.png');*/
+	
+}
+
+input {
+	border: 1px solid #ccc;
+}
+
+br {
+	clear:both;
+}
+
+#wrapper{
+	width:800px;
+	margin: 20px auto;
+	background-color:#FFF;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 4px 10px #888;
+	text-align: center;
+}
+#wrapper p{
+	margin: 0;
+}
+
+#search_form{
+	margin-left: 5px;
+}
+
+#wrapper input[type="text"]{
+	color: #aaa;
+}
+.word {
+	padding: 0 2px 0 2px;
+	background-color: #eee;
+	margin: 2px;
+	cursor:pointer;
+}
+.word:hover {
+	color:#888;
+}
+
+#errorwrapper {
+	display:none;
+	text-align:center;
+	overflow:hidden;
+	margin: -10px;
+}
+
+#resultwrapper{
+	margin: -20px 20px 30px 20px;
+	text-align:left;
+	line-height:1.8em;
+}
+
+#footer {
+	margin:10px;
+	text-align:center;
+	color: #ddd;
+	font-size: 10px;
+}
+#wrapper p{
+	width: 90%;
+	text-align:left;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration:none;
+}
+#footer a:link {color:#ddd;}      /* unvisited link */
+#footer a:visited {color:#ddd;}  /* visited link */
+#footer a:hover {color:#888;}  /* mouse over link */
+#footer a:active {color:#777;}  /* selected link */
+
+#loading{
+	margin: 5px auto 0;
+	visibility:hidden;
+}
+
+#about{
+	width:80%;
+}
+.centered{
+	margin-left:auto;
+	margin-right:auto;
+	width: 268px;
+}
+.tooltip {
+	height:45px;
+	width:70px;
+	margin: 0 0 0 0;
+}
+.tooltip p {
+	margin: 0 0 0 0;
+	font-size:14px;
+	text-align:center;
+}
+.tooltip img{
+	height:30px;
+	width:30px;
+}
